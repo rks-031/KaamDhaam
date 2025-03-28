@@ -61,7 +61,7 @@ const TodoList = () => {
 
   return (
     <div className="container mt-4">
-      <h2 className="text-center mb-4">काम की सूची</h2>
+      <h2 className="text-center mb-4">कार्य सूची</h2>
       <AddTodo userId={user.uid} />
       <TodoFilter filter={filter} setFilter={setFilter} />
       {filteredTodos.length === 0 ? (
